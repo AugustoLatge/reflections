@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It shows the difference between the original working version and the version
+    were the bug was introduced. By analysing the lines that were changed we can
+    more easily spot which changes caused the bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    We can go back to previous versions to retreive previous or old thoughts. We
+    can recover from versions that caused bugs or got corrupted. We can keep one
+    single file in the folder.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:	We can chose a moment were the commit makes sense (logically). Your
+    		commit history will be meaningfull and the versions will be working
+    		versions. 
+    Cons:	We can forget to commit and lose information in case of a breakdown.
+    		The commits can be to big or to small and don't have a logical sense
+    		.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is aimed for programing files that often envolve multiple files 
+    working together and Google Docs is aimed for document files that normaly
+    work on their own.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use this commands to verify the changes between to versions of a
+    file. With git log we can check how many files were touched by a commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you have the certitude to be able to go back to a working version of
+    the code if a bug happens that you don't know exactly how to solve.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Make the version control of my programs files!
