@@ -13,7 +13,7 @@ Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     With forks you make a detached copy of a repository, any changes made to it
-    won't affect the original one. Clones are copys of repositories into local
+    won't affect the original one. Clones are copies of repositories into local
     machines. These copies are linked to the original repository and local
     changes can be pushed to it. Branches are a chain structure of commits that 
     belong to a repository and have the hole of compartmentalizing the code,
@@ -36,4 +36,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When we are willing to create a new feature or make a change in the file but
+    we want to preserve the master version until we are sure our changes work
+    and are approved by the project team.
+    Working directly on master implies that it is kept up to date with everybody
+    changes, but it allows for more conflicts. It is also more difficult to
+    distinguish were a full new feature was added, which is very clear when we
+    are using branches for that.
